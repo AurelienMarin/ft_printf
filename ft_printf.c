@@ -6,7 +6,7 @@
 /*   By: aumarin <aumarin@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/10 11:44:44 by aumarin           #+#    #+#             */
-/*   Updated: 2022/03/12 00:09:34 by aumarin          ###   ########.fr       */
+/*   Updated: 2022/12/11 00:19:47 by aumarin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,7 +48,7 @@ int	ft_printf(const char *str, ...)
 	total_length = 0;
 	i = 0;
 	va_start(params, str);
-	while (i < ft_strlen(str))
+	while (i < ftt_strlen(str))
 	{
 		if (str[i] == '%')
 		{

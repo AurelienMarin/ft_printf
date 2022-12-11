@@ -6,7 +6,7 @@
 /*   By: aumarin <aumarin@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/10 11:44:50 by aumarin           #+#    #+#             */
-/*   Updated: 2022/03/12 00:09:19 by aumarin          ###   ########.fr       */
+/*   Updated: 2022/12/11 00:19:57 by aumarin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@
 int		ft_putnbr_int(int nb, int count);
 int		ft_putnbr_uint(int nb, int count);
 int		ft_putnbr_hex(unsigned int nbr, int isUpper, int c);
-size_t	ft_strlen(const char *s);
+size_t	ftt_strlen(const char *s);
 int		ft_putchar(char c);
 int		ft_putstr(char *s);
 int		ft_printf(const char *str, ...);
